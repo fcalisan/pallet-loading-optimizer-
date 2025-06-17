@@ -53,7 +53,7 @@ Bu proje, lojistik sektöründe palet yükleme operasyonlarını optimize etmek 
 1. Projeyi klonlayın:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/fcalisan/pallet-loading-optimizer-.git
 cd test-yukleme-project
 ```
 
@@ -233,7 +233,7 @@ This project is a web application developed to optimize pallet loading operation
 1. Clone the project:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/fcalisan/pallet-loading-optimizer-.git
 cd test-yukleme-project
 ```
 
