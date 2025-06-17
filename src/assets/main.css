@@ -1,0 +1,90 @@
+/* Temel stil tanımlamaları */
+:root {
+  --primary-color: #409EFF;
+  --text-color: #2c3e50;
+  --background-color: #f5f7fa;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+/* Element Plus tema özelleştirmeleri */
+.el-header {
+  background-color: var(--primary-color);
+  color: white;
+  line-height: 60px;
+}
+
+.el-main {
+  padding: 20px;
+  background-color: var(--background-color);
+}
+
+/* Genel yardımcı sınıflar */
+.text-center {
+  text-align: center;
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+/* Form elemanları için özel stiller */
+.el-form-item {
+  margin-bottom: 22px;
+}
+
+.el-input-number {
+  width: 100%;
+}
+
+/* Tablo stilleri */
+.el-table {
+  margin-top: 20px;
+}
+
+/* Kart stilleri */
+.el-card {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+.el-card__header {
+  padding: 15px 20px;
+  border-bottom: 1px solid #ebeef5;
+  box-sizing: border-box;
+}
+
+/* Buton stilleri */
+.el-button {
+  border-radius: 4px;
+}
+
+.el-button--primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+/* Responsive tasarım için medya sorguları */
+@media (max-width: 768px) {
+  .el-form-item {
+    margin-bottom: 18px;
+  }
+
+  .el-card {
+    margin-bottom: 15px;
+  }
+}
